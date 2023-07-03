@@ -6,7 +6,7 @@ import Input from '../../components/Input';
 import Form from '../../components/Form';
 import { useState } from 'react';
 import Modal from 'react-modal';
-import { getResult } from '../../utils/getResult';
+import { getLista } from '../../utils/getLista';
 
 import teia from '../../assets/teia.png';
 
@@ -17,7 +17,7 @@ export default function Result() {
   const [result, setResult] = useState([]);
 
   function handleResult() {
-    const res = getResult([{}, ...missions], distance);
+    const res = getLista([{}, ...missions], distance);
     console.log(res);
     setResult(res);
     setModalOpen(true);
