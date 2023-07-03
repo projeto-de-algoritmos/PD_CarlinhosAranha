@@ -1,0 +1,26 @@
+:root {
+  --dark-red: #8B0000;
+  --bright-red: #FF0000;
+  --deep-yellow: #FFD700;
+  --light-yellow: #FFFF00;
+  --deep-blue: #00008B;
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none !important;
+  font-family: 'Anton'!important;
+  color: var(--bright-red);
+}
+
+html,
+body,
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
