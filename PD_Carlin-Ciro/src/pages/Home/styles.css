@@ -6,7 +6,7 @@
   width: 100vw;
   height: 100vh;
   padding: 4rem 0;
-  gap: 2rem;
+  gap: 4rem;
   position: relative;
 
   overflow-y: hidden;
@@ -19,19 +19,18 @@
 
 .home p {
   font-size: 1rem;
-  width: 90%;
+  width: 30%;
   max-width: 600px;
   text-align: center;
   color: var(--bright-red);
   z-index: 2;
+  
 }
 
 .home .teia {
   width: 20%;
   position: absolute;
-
   width: 100%;
-
 
   
 }
