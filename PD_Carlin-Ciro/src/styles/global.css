@@ -1,7 +1,7 @@
 :root {
   --bright-red: #FF0000;
   --deep-blue: #00008B;
-  
+  --dark-red: rgb(137, 2, 2);
 }
 
 * {

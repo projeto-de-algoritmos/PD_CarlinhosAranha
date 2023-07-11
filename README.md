@@ -2,10 +2,9 @@ Temas:
  - PD
  
 
-# NomedoProjeto
+# Carlinhos Aranha
 
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Conteúdo da Disciplina**: Programação dinâmica<br>
 
 ## Alunos
 
@@ -16,21 +15,26 @@ Temas:
 
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+O nosso projeto consiste em buscar os melhores caminhos em um grafo para o Carlinhos aranha atender os chamados. 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: Javascript<br>
+**Framework**: React<br>
+Requisitos:
 
+- Node.js >= 18.0
+- git
+
+Como executar: 
+    execute o seguinte commando no root do repositório
+    ````
+    npm install && npm run start
+    ````
 ## Uso 
 Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 
 
 

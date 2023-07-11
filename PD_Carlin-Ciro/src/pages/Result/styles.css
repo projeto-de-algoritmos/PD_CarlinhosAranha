@@ -99,7 +99,7 @@ button:hover{
 }
 
 .ReactModal__Content {
-  background-color: var(--dark-red) !important;
+  /* background-color: var(--dark-red); */
   border-color: var(--dark-red)!important;
   display: flex;
   flex-direction: column;
@@ -123,7 +123,6 @@ button:hover{
   justify-content: center;
   max-width: 450px;
   text-align: center;
-  
 }
 
 .ReactModalPortal{
